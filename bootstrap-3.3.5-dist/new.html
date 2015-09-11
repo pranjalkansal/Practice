@@ -2,27 +2,25 @@
 <head>
 	<title>Facebook - Log In or Sign Up</title>
 	<link rel="login icon" href="2.ico"/>
-	<link rel="stylesheet" type="text/css" href="css/facebook1.css">
-	<script src="js/fb.js"></script>
+	<link rel="stylesheet" type="text/style" href="facebook1.css">
 </head>
-<body onload="checkActiveUser()">
+<body>
 	<div class="main">
 		<div class="top">
 			
-			<div class="top_left">facebook</div>
-<div class="top_right">
-		<form method="post" action="home.html" onsubmit="return logfun()">	
- 			
+				<div class="top_left">facebook</div>
+				<div class="top_right">		
+				<form method="post" action="submit">	
 				Email or <label class="forgot">Phone Password</label><br>
-				<input class="input" id="v1" type="text" name="Email_id"></input>&nbsp;&nbsp;&nbsp;
-				<input class="input" id="v2" type="password" name="Password"></input>&nbsp;&nbsp;&nbsp;
-				<button class="login_button" type="submit" name="Log In">Log In</button><br>
-				<input type="checkbox" name="persistant" value="0">
+				<input class="input" type="text" name="Email_id"></input>&nbsp;&nbsp;&nbsp;
+				<input class="input" type="password" name="Password"></input>&nbsp;&nbsp;&nbsp;
+					<button class="login_button" type="submit" name="Log In">Log In</button><br>
+				<input type="checkbox" name="persistant" value="0"></input>
 				<label class="persist">Keep me logged in</label>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 				<a class="persist" href="www.google.com">Forgotten your password?</a>
-		</div>	</form></div>
-		
+			</form></div>
+		</div>
 		<div class="fbhelp">
 			Facebook helps you connect and share with the <br>people in your life.
 			<br><img src="1.png">
@@ -31,14 +29,14 @@
 				<div class="free">It's free and always will be.<br><br>
 
 			
-                           <form class="new_user" method="post" action="home.html" onsubmit="return signup()">
-				<input class="input_name" id="v3" type=text name="First name" placeholder="&nbsp;First Name" />
-				<input class="input_name" id="v4" type=text name="Surname" placeholder="&nbsp;Surname" /><br /><br />
-				<input class="signup" id="v5" type=text name="Email" placeholder="&nbsp;Email or mobile number" /><br /><br />
-				<input class="signup" id="v6" type=text name="Confirm_Email" placeholder="&nbsp;Re-enter email or mobile number" /><br /><br />
-				<input class="signup" id="v7" type=password name="Password" placeholder="&nbsp;New password" /><br /><br />
+                           <form class="new_user" method="post" action="submit">
+				<input class="input_name" type=text name="First name" value="&nbsp;First Name" />
+				<input class="input_name" type=text name="Surname" value="&nbsp;Surname" /><br /><br />
+				<input class="signup" type=text name="Email" value="&nbsp;Email or mobile number" /><br /><br />
+				<input class="signup" type=text name="Confirm_Email" value="&nbsp;Re-enter email or mobile number" /><br /><br />
+				<input class="signup" type=password name="Password" value="&nbsp;New password" /><br /><br />
 				Birthday<br /><br />
-				<select name="Day" id="v8" style="height:30px">
+				<select name="Day" style="height:30px">
 					<option value="Day">Day</option>
 					<option value=1>1</option>
 					<option value=2>2</option>
@@ -72,7 +70,7 @@
 					<option value=30>30</option>
 					<option value=31>31</option>
 				</select>
-				<select name="Month" id="v9" style="height:30px">
+				<select name="Month" style="height:30px">
 					<option value="Month">Month</option>
 					<option value="Jan">January</option>
 					<option value="Feb">Feburary</option>
@@ -87,7 +85,7 @@
 					<option value="Nov">November</option>
 					<option value="Dec">December</option>
 				</select>
-				<select name="Year" id="v10" style="height:30px">
+				<select name="Year" style="height:30px">
 					<option value="Year">Year</option>
 					<option value=1990>1990</option>
 					<option value=1991>1991</option>
@@ -109,14 +107,13 @@
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 				date of birth?</a><br /><br />
-				<input type=radio name="Gender" id="v11" value="Female"><label class="radio_gndr">Female</label></input>&nbsp;&nbsp;
-				<input type=radio name="Gender" id="v12" value="Male" ><label class="radio_gndr">Male</label></input>
+				<input type=radio name="Gender" value="Female"><label class="radio_gndr">Female</label></input>&nbsp;&nbsp;
+				<input type=radio name="Gender" value="Male" ><label class="radio_gndr">Male</label></input>
 				
 				<br /><br /><label id="terms">By clicking Create an account, you agree to our<a id="t" href="www.facebook.com"> Terms</a> and that<br />
 				you have read our<a href="www.facebook.com" id="t"> Data Policy</a>, including our<a href="www.facebook.com" id="t"> Cookie Use</a>.</label><br />
-				<br />
-				<button class="signup_btn" type="submit"  value="Create_new">Create an account</button>
-		</form>
+				<br /><button class="signup_btn" type=submit value="Create_new">Create an account</button>
+
 		</div>
 		</div>
 	</div>

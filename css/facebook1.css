@@ -1,0 +1,190 @@
+body
+{
+background: -moz-linear-gradient(top, #FFFFFF, #D3D8E8);
+padding:0;
+margin:0;
+font-family="tahoma";
+}
+.main{
+width:100%;
+height:100%;
+}
+.top
+{
+
+width:100%;
+background:#3B5795;
+float:left;
+}
+.top_left
+{
+font-size:40px;
+font-family:"tahoma";
+height:55px;
+width:178px;
+font-weight:bold;
+color:white;
+padding-top:1.7%;
+padding-left:13%;
+float:left;	
+
+}
+.input
+{
+width:143px;
+height:23px;
+border-style:solid;
+border-width:1px;
+}
+.top_right
+{
+padding-top:1%;
+font-family:helvetica;
+width:360px;
+height:79px;
+padding-right:14%;
+color:white;
+float:right;
+font-size:12px;
+font-weight:normal;
+line-height:22px;
+}
+.forgot
+{
+word-spacing:70px;
+}
+.login_button
+{
+font-family:helvetica;
+font-size:10.5px;
+background-color:#5B74A8;
+color:white;
+
+border-color:#29447E;
+border-width:1px;
+color:white;
+font-weight:bold;
+height:22px;
+width:48px;
+}
+.persist
+{
+color:#9DACCB;
+text-decoration:none;
+}
+
+.fbhelp
+{
+float:left;
+font-size:20px;
+font-family:Helvetica;
+font-weight:bold;
+color:#0e385f;
+padding-top:4%;
+padding-left:13%
+}
+.caa
+{
+padding-top:2%;
+color:#333333;
+font-size:42;
+font-family:calibri;
+font-weight:bold;
+float:right;
+padding-right:14%;
+}
+.free{
+font-weight:normal;
+padding-top:2%;
+font-family:helvetica;
+font-size:18;
+color:#141823;
+}
+
+.input_name
+{ 	font-size:18px;
+	font-weight:normal;
+	font-family:arial;
+	border-radius:5px;
+	border-color:#BDC7D8;
+	border-width:1px;
+	width:194px;
+	height:39px;
+}
+.signup
+{	font-size:18px;
+	font-weight:normal;
+	font-family:arial;
+	color:black;
+	border-color:#BDC7D8;
+	border-width:1px;
+	border-radius:5px;
+	width:395px;
+	height:39px;
+}	
+.signup_btn
+{	font-size:12px;
+	font-weight:bold;
+	font-family:arial;
+	color:white;
+background: -moz-linear-gradient(top, #6AAf57, #578843);
+
+	border-color:#3B6E22;
+	border-width:1px;
+	border-radius:5px;
+	width:194px;
+	height:31px;
+}	
+
+.input_name
+{
+color:black;
+}
+.Day{
+height:30px;
+width:59px;
+}
+.Month
+{
+height:30px;
+width:59px;
+}
+.Year
+{
+height:30px;
+width:59px;
+}
+.why{
+padding-right:10px;
+}
+.radio_gndr
+{
+font-family:helvetica;
+font-size:12px;
+}
+#checkbox
+{
+	align:left;
+}
+#text_top
+{
+	color:#333333;
+	font-family:arial;
+	font-size:34px;
+	font-weight:bold;
+}
+#t
+{text-decoration:none;color:#3B5998;
+}
+#dob
+{	color:#3B5998;
+	text-decoration:none;
+	font-size:11px;
+	padding-left:10px;
+	
+}
+#terms
+{
+	font-size:11px;
+	color:#777777;
+}

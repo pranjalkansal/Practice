@@ -1,82 +1,52 @@
 <html>
-<head>
-	<title>facebook</title>
-	<link rel="stylesheet" type="text/css" href="CSS\banner.css">
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<link rel="logo icon" href="logo.ico"></link>
-	<script type="text/javascript" src="JavaScript\home.js"></script>
+<head><title>Facebook-Home</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<script src="js/fb2.js"></script>
+<meta charset="UTF-8">
 </head>
+
 <body onload="checkActiveUser()">
-	<div class="banner">
-		<div class="row">
-			<div class="col-sm-4">
-				<div class="col-sm-12">
-					<h4>facebook</h4>
-				</div>
-			</div>
-			<div class="col-sm-4">
-			</div>
-			<div class="col-sm-4">
-				<div class="row">
-					<div class="col-xs-3"></div>
-					<div class="col-xs-3" style="padding-top:1%;padding-left:1%;">
-						<button type="button" class="btn btn-md btn-primary" onclick="profile()" id="profile"></button>
-					</div>
-					<div class="col-xs-3" style="padding-top:1%;">
-						<button type="button" class="btn btn-md btn-primary" onclick="logout()">Logout</button>
-					</div>
-				</div>
-			</div>
-		</div>
+<div class="top">
+<div class="row">
+	<div class="col-sm-4"><h2>facebook</h2></div>
+	<div class="col-sm-4"></div>
+	<div class="col-sm-4"><button class="btn btn-md btn-success" onclick="logout()">Logout</button>
+<button class="btn btn-md btn-success" onclick="profile()">Profile</button>
 	</div>
-	<div class="row"  style="margin:0;">
-		<div class="col-sm-3"><br />
-			<ul class="list-group">
-				<li class="list-group-item list-group-item-info"><span class="badge">0</span>News Feeds</li>
-				<li class="list-group-item list-group-item-info"><span class="badge">0</span>Messages</li>
-				<li class="list-group-item list-group-item-info"><span class="badge">0</span>Find Friends</li>
-				<li class="list-group-item list-group-item-info"><span class="badge">0</span>Groups</li>
-			</ul>
-			<br />
-			<ul class="list-group">
-				<li class="list-group-item list-group-item-success"><span class="badge">0</span>Apps</li>
-				<li class="list-group-item list-group-item-success"><span class="badge">0</span>Games</li>
-				<li class="list-group-item list-group-item-success"><span class="badge">0</span>Pages</li>
-			</ul>
-			<br />
-			<ul class="list-group">
-				<li class="list-group-item list-group-item-warning"><span class="badge">0</span>Following</li>
-			</ul>
-		</div>
-		<div class="col-sm-6">
-			<div class="row" id="get_started">
-				<br />
-				<div class="col-sm-9 well well-sm">
-					<div class="row" style="margin:0;">
-						<h4>Welcome to facebook!!<br />Let's get started.<br />Post your first update....</h4>
-					</div>
-					<div class="row" style="margin:0;">
-						<button type="button" class="btn btn-sm pull-right btn-primary" onclick="intro()">Ok, Got it!</button>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-9">
-					<div class="row well-sm">
-						<h5><strong>Status Update</strong></h5>
-					</div>
-					<div class="row">
-						<textarea placeholder="Write a new Status update!!" id="post" rows="5" autofocus class="form-control" style="resize:none"></textarea><br />
-						<button type="button" class="btn btn-primary pull-right" onclick="new_post()">Post</button>
-					</div>
-				</div>
-			</div>
-			<div id="post_area"></div><br />
-			<div class="col-sm-9 well well-sm">
-				<h4 style="text-align:center;">Welcome to facebook!!</h4>
-			</div>
-		</div>
-		<div class="col-sm-3"></div>
 	</div>
+</div>
+<div class="row">
+<div class="col-sm-4">
+</div>
+
+<div class= "col-sm-4">
+	<h4>Welcome to facebook!!<br />Let's get started.<br />Post your first update....</h4>
+</div>
+<div class="col-sm-4"></div>
+
+
+<div class="col-xs-1" style="padding-right:0;">
+				<a href="about.html">About Us</a>
+			</div>
+			<div class="col-xs-1" style="padding-left:0;">
+				<a href="contact.html">Contact Us</a>
+			</div>
+
+
+</div>
+<div class="row">
+<div class="col-sm-4"></div>
+<div class="col-sm-4">
+	<div class="row">
+<h6>Status Update</h6>
+</div>
+	<div class="row">
+	<textarea placeholder="Write a new Status update!!" id="post" rows="5" autofocus class="col-sm-12">
+	</textarea><br />
+	<button type="button" class="btn btn-primary pull-right" onclick="new_post()">Post</button>
+		<div id="post_area"><br></div>
+	</div>
+		</div>
+			</div>
 </body>
 </html>
