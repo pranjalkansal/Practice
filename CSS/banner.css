@@ -1,0 +1,15 @@
+.banner {
+   border-bottom: solid;
+   border-bottom-color: #3B5997;
+   border-bottom-width: 2px;
+   color: white;
+   background-color: #3B5999;
+}
+#confirm_block{
+  position: absolute;
+  z-index: 5;
+  left: 32%;
+  right: 35%;
+  top: 25%;
+  display: none;
+}
